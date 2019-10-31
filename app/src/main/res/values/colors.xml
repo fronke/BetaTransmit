@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="StatusBar">#000000</color>
+    <color name="ActionBar">#212121</color>
+    <color name="BackgroundDark">#303030</color>
+    <color name="BackgroundLight">#424242</color>
+    <color name="TextRed">#d25252</color>
+    <color name="TextGreen">#619667</color>
+    <color name="TextTitle">#cb772f</color>
+    <color name="TextPrimary">#ffffff</color>
+    <color name="TextSecondary">#808080</color>
+    <color name="TextBlue">#a9b7c6</color>
+
+</resources>

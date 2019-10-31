@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@color/BackgroundDark">
+
+        <TextView
+            android:id="@+id/item_episode_serie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Serie"
+            android:textColor="@color/TextPrimary"/>
+
+        <TextView
+            android:id="@+id/item_episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="3dp"
+            android:text="Title"
+            android:textColor="@color/TextSecondary"/>
+
+        <TextView
+            android:id="@+id/item_episode_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="right"
+            android:text="Status"
+            android:textColor="@color/TextSecondary"/>
+
+</LinearLayout>

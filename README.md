@@ -1,0 +1,1 @@
+Android app with Betaseries connection, torrent site browsing / parsing and transmission magnet adding

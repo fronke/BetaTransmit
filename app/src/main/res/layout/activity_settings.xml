@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/BackgroundDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Torrent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/TextTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Search parameter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary" />
+
+            <EditText
+                android:id="@+id/preference_kat_search_parameter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp" />
+            <EditText
+                android:id="@+id/preference_kat_search_parameter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp" />
+            <EditText
+                android:id="@+id/preference_kat_search_parameter3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="BetaSeries"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/TextTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_bs_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_bs_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Transmission"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/TextTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_rpc_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_rpc_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Host Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_rpc_host_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Host Port"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_rpc_host_port"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Default Folder"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextSecondary"/>
+
+            <EditText
+                android:id="@+id/preference_rpc_default_folder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+
+            <Button
+                android:id="@+id/preference_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:text="Save" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
